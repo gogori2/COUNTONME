@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.isus.letecimajmuni.Brojac"
+    android:background="#fffff800"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BROJAČ"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stanje"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:paddingEnd="50dp"
+        android:paddingStart="30dp"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/plus_button"
+            android:layout_weight="1"
+            android:background="#ffffd400"
+            android:onClick="inc1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/minus_button"
+            android:layout_weight="1"
+            android:background="#ffffd400"
+            android:onClick="dec1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LeteciMajmuni</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_brojac">Brojac</string>
+    <string name="title_activity_kosarka">Kosarka</string>
+</resources>
